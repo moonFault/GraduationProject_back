@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="miaosha6" />
+        <module name="miaosha7" />
+        <module name="miaosha4" />
+        <module name="miaosha5" />
+        <module name="miaosha2" />
+        <module name="miaosha3" />
+        <module name="ideaproject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="miaosha" target="8" />
+      <module name="miaosha (1) (com.miaoshaproject3)" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ideaproject" options="-parameters" />
+      <module name="miaosha" options="-parameters" />
+      <module name="miaosha (1) (com.miaoshaproject3)" options="-parameters" />
+      <module name="miaosha2" options="-parameters" />
+      <module name="miaosha3" options="-parameters" />
+      <module name="miaosha4" options="-parameters" />
+      <module name="miaosha5" options="-parameters" />
+      <module name="miaosha6" options="-parameters" />
+      <module name="miaosha7" options="-parameters" />
+    </option>
+  </component>
+</project>
